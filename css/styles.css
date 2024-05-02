@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.justify-center {
+    justify-content: center ;
+}
+
+.align-center {
+    align-items: center;
+} 
+
+.large-25 {
+    width:23%;
+}
+
+.large-50 {
+    width:48%;
+}
+
+p {
+    font-family : Arial ;
+}
+
+p#infos {
+    font-size: 24px;
+}
+
+.joueur1 {
+    color:rgb(24, 11, 205);
+}
+
+.joueur2{
+    color: rgb(16, 164, 107);
+}
+
+.pion-aligne{
+    background-color: goldenrod;
+}
+
+.message-gagne {
+    font-size: 40px;
+    color: red;
+}
+
+
+#grille, #infos {
+    display: none;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#infos {
+    font-size: 30px;
+}
+
+h1, table, div {
+    padding : 10px;
+}
+
+h1, div, form {
+    margin-bottom: 10px;
+}
